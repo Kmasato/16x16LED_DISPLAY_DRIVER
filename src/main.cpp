@@ -40,6 +40,9 @@ void loop() {
      setLEDbyByte(framePacket[i], i);
   }
   
+  delay(50);
+  Serial.println("b");
+  
 }
 
 void setLEDbyByte(byte data, int index){
